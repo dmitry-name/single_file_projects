@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
+#define SIZE 100
+
 int main(void)
 {
-    char str[100] = {"https://some-tested-text.com"};
+    char str[SIZE] = {"https://some-tested-text.com"};
     /* ввод с клавиатуры */
     /*fgets(str, sizeof(str)-1, stdin); 
     char* ptr_n = strrchr(str, '\n');
